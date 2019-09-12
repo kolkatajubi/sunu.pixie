@@ -14,11 +14,25 @@
   //     }
   // });
 
-  $(document).ready(function () {
-    $(document)
-    .ajaxStart(function () {
-         $("#ajaxSpinnerImage").show();
-    })
-    .ajaxStop(function () {
-         $("#ajaxSpinnerImage").hide();
-    });
+  
+$(document).ready(function () {
+
+  $.ajax({
+      type: 'POST',
+      url: 'http://localhost:5125',
+
+      dataType: "jsonp",
+
+      crossDomain: true,
+      success: function (msg) {
+
+          alert("success");
+
+      },
+      error: function (request, status, error) {
+
+          alert(error);
+      }
+  });
+});
+  
