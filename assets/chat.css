@@ -65,9 +65,9 @@ ul{
     padding: 6px;
     border: 1px solid #e2e2e2;
 }
-
-
-
+.bxButton { background: #fff;border-radius: 10px;box-shadow: 0 4px 2px 0 #ccc; }
+.loginBtn a { background: rgb(0, 75, 126) }
+.signupBtn a { background: rgb(100, 1, 59) } 
 
 
 
