@@ -5,3 +5,7 @@ $(document).ready(function(){
         $(".signin").hide();  
     });
     });
+
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".sec_loginform").fadeOut("slow")});
