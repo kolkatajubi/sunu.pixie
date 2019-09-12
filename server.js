@@ -8,7 +8,7 @@ app.use(bodyparser.urlencoded({ extended: false }));
 
 app.use(express.static("assets"));
 app.get("/", function(req, res) {
-  res.sendFile(__dirname + "/assets/login.html");
+  res.sendFile(__dirname + "/assets/index.html");
 });
 
 app.get('/javascript', function (req, res) {
