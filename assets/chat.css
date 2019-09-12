@@ -38,11 +38,33 @@ ul{
 /* ===============================
         Sign up form
 ===============================*/
-.sec_loginform { margin: auto;padding: 10px;border: 1px solid #ccc; background: #fff; box-shadow: 0 4px 2px 0 #ccc; }
-
-
-
-
+.sec_loginform {margin: auto;
+    padding: 28px;
+    border: 1px solid #e8e8e8;
+    background: #fff;
+    box-shadow: 0 4px 2px 0 #ccc;
+    width: 300px; }
+.sec_loginform h3 {
+    margin: 0 0 12px;
+    color: #0093ff;
+}
+.bxInput { float: left;
+    width: 100%;
+    margin: 0 0 8px 0; }
+.inputText{
+    float: left;
+    margin: 5px 0 0 0;
+    color: #616161;
+    min-width: 25%;
+}   
+.inputField {
+    float: left;
+    margin: 0 0 0 10px;
+}
+.inputField input {
+    padding: 6px;
+    border: 1px solid #e2e2e2;
+}
 
 
 
