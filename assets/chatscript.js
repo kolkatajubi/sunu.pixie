@@ -1,17 +1,21 @@
 $(document).ready(function(){
-    $(".signup").hide();
-      $(".i").click(function(){
-        $(".signup").show();
-        $(".signin").hide();  
-    });
-    });
+    // $(".signup").hide();
+    //   $(".i").click(function(){
+    //     $(".signup").show();
+    //     $(".signin").hide();  
+    // });
+    // });
 
-    jQuery.ajaxSetup({
+    jQuery.ajax({
+      type: "POST",
+      url: 'YOU_URL_TO_WHICH_DATA_SEND',
+      data:'YOUR_DATA_TO_SEND',
       beforeSend: function() {
-         $('.sec_loginform').show();
+          $(".sec_loginform").show();
       },
-      complete: function(){
-         $('.sec_loginform').hide();
-      },
-      success: function() {}
-    });
+      success: function(data) {
+          $(".sec_loginform").hide();
+      
+        }
+      });
+      });
