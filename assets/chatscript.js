@@ -7,14 +7,12 @@ $(document).ready(function(){
     // });
 
     jQuery.ajax({
-      type: "POST",
-      url: 'YOU_URL_TO_WHICH_DATA_SEND',
-      data:'YOUR_DATA_TO_SEND',
+    
       beforeSend: function() {
-          $(".sec_loginform").show();
+          $(".sec_loginform").hide();
       },
       success: function(data) {
-          $(".sec_loginform").hide();
+          $(".sec_loginform").show();
       
         }
       });
