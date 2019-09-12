@@ -90,5 +90,7 @@ ul{
     background: rgb(154, 3, 92);
 }
 
-
+#ajaxSpinnerImage {
+    display: none;
+}
 
