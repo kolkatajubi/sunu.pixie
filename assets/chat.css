@@ -2,6 +2,7 @@ body{
     background-color: #fff; display: flex;float: left;width: 100%;
     height: 100vh;
 }
+* { box-sizing: border-box; }
 .signin {
    
 		width:300px;
@@ -44,9 +45,10 @@ ul{
     background: #fff;
     box-shadow: 0 4px 2px 0 #ccc;
     width: 300px; }
-.sec_loginform h3 {
-    margin: 0 0 12px;
+.sec_loginform h3 {margin: 0 0 21px;
     color: #0093ff;
+    padding: 0 0 4px 0;
+    border-bottom: 1px solid #e2e2e2;
 }
 .bxInput { float: left;
     width: 100%;
@@ -59,13 +61,19 @@ ul{
 }   
 .inputField {
     float: left;
-    margin: 0 0 0 10px;
+    padding: 0 0 0 10px;
+    width: 75%;
+    box-sizing: border-box;
 }
 .inputField input {
     padding: 6px;
     border: 1px solid #e2e2e2;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
 }
-.bxButton { background: #fff; }
+.bxButton { background: #fff;
+    margin: 5px 0 0 0; }
 .bxButton a { 
     display: block;
     text-align: center;
@@ -74,8 +82,13 @@ ul{
     padding: 5px;
     border-radius: 15px; }
 .loginBtn a { background: rgb(0, 75, 126) }
+.loginBtn a:hover {
+    background: rgb(0, 122, 206);
+}
 .signupBtn a { background: rgb(100, 1, 59) } 
-
+.signupBtn a:hover {
+    background: rgb(154, 3, 92);
+}
 
 
 
