@@ -26,10 +26,12 @@ $(document).ready(()=> {
   $("#redirect-sign-in").click(()=>{
     $("#signin-div").show()
     $("#signup-div").hide()
+    $("#loading-div").hide()
   })
   $("#redirect-sign-up").click(()=>{
     $("#signin-div").hide()
     $("#signup-div").show()
+    $("#loading-div").hide()
   })
 
   //on signin
@@ -55,6 +57,7 @@ $(document).ready(()=> {
     if (signupStatus.status=="success"){
       $("#signin-div").show()
       $("#signup-div").hide()
+      $("#loading-div").hide()
     }
     $("#signup-error").val(signupStatus.data)
   })
