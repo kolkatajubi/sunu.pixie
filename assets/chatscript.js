@@ -6,7 +6,7 @@ $(document).ready(function(){
     // });
     // });
 
-    jQuery.ajax({
+  ({
     
       beforeSend: function() {
           $(".sec_loginform").hide();
