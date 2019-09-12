@@ -6,6 +6,10 @@ $(document).ready(function(){
     });
     });
 
-	$(window).load(function() {
-		// Animate loader off screen
-		$(".sec_loginform").fadeOut("slow")});
+$(document)
+  .ajaxStart(function () {
+    $loading.show();
+  })
+  .ajaxStop(function () {
+    $loading.hide();
+  });
