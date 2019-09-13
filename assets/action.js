@@ -47,7 +47,8 @@ $(document).ready(()=> {
     $("#signin-error").val(signinStatus.data)
   })
 
-  //on signup
+  //o
+   signup
   $("#sign-up").click(async()=>{
     let username=$("#signup-username-input").val()
     let password=$("#signup-password-input").val()
@@ -61,6 +62,8 @@ $(document).ready(()=> {
     }
     $("#signup-error").val(signupStatus.data)
   })
+
+
 
 });
   

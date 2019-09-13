@@ -1,3 +1,71 @@
+body{
+    background-color: 
+}
 #signin-div,#signup-div{
-    display: none
+    display: none;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+#signin-username-input{
+    width: 50%;
+    /* margin: 1% 1% 1% 1%; */
+    padding: 1% 1% 1% 1%;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: thin;
+    border-color: grey;
+    margin-left: 5%;
+    margin-top: 5%;
+    box-shadow: 3px 3px lightgrey;
+}
+#signin-password-input{
+    width: 50%;
+    /* margin: 1% 1% 1% 1%; */
+    padding: 1% 1% 1% 1%;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: thin;
+    border-color: grey;
+    margin-left: 5%;
+    margin-top: 1%;
+    box-shadow: 3px 3px lightgrey;
+}
+p {
+    display: block;
+    margin-left: 178px;
+    margin-top: 150px;
+    padding: 1% 1% 1% 1%;
+    text-align: left;
+    text-shadow: 2px 2px lightgrey;
+}
+
+#sign-in{
+    width: 10%;
+    /* margin: 1% 1% 1% 1%; */
+    padding: 1% 1% 1% 1%;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: thin;
+    border-color: grey;
+    margin-left: 5%;
+    box-shadow: 3px 3px grey;
+    background-color: #bfff00;
+}
+
+#redirect-sign-up{
+    width: 10%;
+    /* margin: 1% 1% 1% 1%; */
+    padding: 1% 1% 1% 1%;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 16px;
+    border-width: thin;
+    border-color: grey;
+    margin-left: 5%;
+    box-shadow: 3px 3px grey;
+    background-color: #bad8b2;
 }
